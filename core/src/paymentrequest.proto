@@ -45,3 +45,4 @@ message PaymentACK {
         required Payment payment = 1;      // Payment message that triggered this ACK
         optional string memo = 2;          // human-readable message for customer
 }
+core/src/paymentrequest.proto
